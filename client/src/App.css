@@ -20,9 +20,9 @@ body {
 	font-size: 1rem;
 	line-height: 1.6;
 	background-color: #fff;
-  background-image: url("coffee.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+	background-image: url("coffee.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
 	color: #333;
 }
 
@@ -74,11 +74,11 @@ img {
 }
 
 .text-primary {
-	color: var(--primary-color);
+	color:black;
 }
 
 .text-dark {
-	color: var(--dark-color);
+	color: black;
 }
 
 .text-center {
@@ -338,6 +338,8 @@ button {
 	margin: 2rem auto;
 	overflow: hidden;
 	padding: 0 2rem;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
 }
 
 .form-container h1,
