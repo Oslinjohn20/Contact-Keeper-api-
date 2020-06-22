@@ -21,7 +21,7 @@ body {
 	line-height: 1.6;
 	background-color: #fff;
 	background-image: url("coffee.jpg");
-	background-size: auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 	color: #333;
 }
