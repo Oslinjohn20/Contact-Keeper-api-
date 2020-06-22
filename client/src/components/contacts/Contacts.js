@@ -14,9 +14,7 @@ const Contacts = () => {
 		// eslint-disable-next-line
 	}, []);
 
-	if (contacts.length === 0) {
-		return <h4>Please add a contact</h4>;
-	}
+
 
 	return (
 		<Fragment>
